@@ -171,96 +171,101 @@ const projects = [
         name: 'tailwind',
         color: 'pink-text-gradient',
       },
-  
-    {
-        "id": "project-1",
-        "name": "AI Voice Assistant",
-        "description": "Developed an AI voice assistant chatbot leveraging IBM's Watson AI, which provides natural language understanding and speech capabilities. Implemented the chatbot using Flask for the backend, and created a responsive interface with HTML and CSS for seamless user interaction.",
-        "tags": [
-            {
-                "name": "AI",
-                "color": "blue-text-gradient"
-            },
-            {
-                "name": "Watson",
-                "color": "green-text-gradient"
-            },
-            {
-                "name": "Flask",
-                "color": "pink-text-gradient"
-            }
-        ],
-        "image": "ai_voice_assistant",
-        "repo": "https://github.com/user/ai_voice_assistant",
-        "demo": "https://user.github.io/ai_voice_assistant/"
-    },
-    {
-        "id": "project-2",
-        "name": "Laptops Unleashed",
-        "description": "Developed a laptop search engine website using JavaScript, which featured an intuitive and user-friendly interface. Implemented Natural Language Processing (NLP) techniques to analyze user input and generate precise laptop recommendations, significantly enhancing the relevance and accuracy of search results.",
-        "tags": [
-            {
-                "name": "JavaScript",
-                "color": "blue-text-gradient"
-            },
-            {
-                "name": "NLP",
-                "color": "green-text-gradient"
-            },
-            {
-                "name": "Search Engine",
-                "color": "pink-text-gradient"
-            }
-        ],
-        "image": "laptops_unleashed",
-        "repo": "https://github.com/user/laptops_unleashed",
-        "demo": "https://user.github.io/laptops_unleashed/"
-    },
-    {
-        "id": "project-3",
-        "name": "Scratch Translation into Amharic",
-        "description": "One of the original translators of Scratch into Amharic, picking syntax and semantically appropriate words from Ge'ez (ancestral Amharic) to substitute lacking terms for Object Oriented terms. Contributed to the translation of 20% of the syntax.",
-        "tags": [
-            {
-                "name": "Translation",
-                "color": "blue-text-gradient"
-            },
-            {
-                "name": "Amharic",
-                "color": "green-text-gradient"
-            },
-            {
-                "name": "Scratch",
-                "color": "pink-text-gradient"
-            }
-        ],
-        "image": "scratch_translation_amharic",
-        "repo": "https://github.com/user/scratch_translation_amharic",
-        "demo": "https://user.github.io/scratch_translation_amharic/"
-    },
-    {
-        "id": "project-4",
-        "name": "Highland Defense",
-        "description": "Created an interactive, real-time strategy game set in 19th century Abyssinia, featuring a human versus AI gameplay with 20 unique characters. The game, developed using Unity and C#, centers around tower defense mechanics in a historic setting. Leveraged pathfinding algorithms (A*) for AI movement and decision-making, and implemented multiplayer functionality using Photon Unity Networking (PUN). The game also features a complex HP - attack bonus system that favored historic military strategies, enhancing the overall player historical experience.",
-        "tags": [
-            {
-                "name": "Unity",
-                "color": "blue-text-gradient"
-            },
-            {
-                "name": "C#",
-                "color": "green-text-gradient"
-            },
-            {
-                "name": "PUN",
-                "color": "pink-text-gradient"
-            }
-        ],
-        "image": "highland_defense",
-        "repo": "https://github.com/user/highland_defense",
-        "demo": "https://user.github.io/highland_defense/"
-    }
-
+    ],
+    image: komikult,
+    repo: 'https://github.com/shaqdeff/KomiKult',
+    demo: 'https://shaqdeff.github.io/KomiKult/',
+  },
+  {
+    id: 'project-2',
+    name: 'Leaderboard',
+    description:
+      'A leaderboard list app that displays scores submitted by different players.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: leaderboard,
+    repo: 'https://github.com/shaqdeff/Leaderboard',
+    demo: 'https://shaqdeff.github.io/Leaderboard/',
+  },
+  {
+    id: 'project-3',
+    name: 'Math Magicians',
+    description: 'This is a single-page calculator app built with React',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: math,
+    repo: 'https://github.com/shaqdeff/Math-Magicians',
+    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+  },
+  {
+    id: 'project-4',
+    name: 'Movie Metro',
+    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: movie,
+    repo: 'https://github.com/shaqdeff/Movie-Metro',
+    demo: 'https://movie-metro.netlify.app/',
+  },
+  {
+    id: 'project-5',
+    name: 'Nyeusi Fest Site',
+    description:
+      'This is a demo concert website for a music festival called Nyeusi.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: nyeusi,
+    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+  },
 ];
 
 export { services, technologies, experiences, projects };
